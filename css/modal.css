@@ -29,3 +29,38 @@
     font-weight: bolder;
     cursor: pointer;
 }
+
+form .input-content{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin: 8px 0px;
+}
+
+.button-content{
+    display: flex;
+    align-items: center ;
+    justify-content: center;
+}
+
+.button-content button {
+    background-color: #008000;
+    border: 0px;
+    height: 30px;
+    width: 100px;
+    color: white;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+.button-content button:hover{
+    background-color: #ffffff;
+    border: 1px solid #008000;
+    color: #008000;
+}
+
+.close-modal{
+    /* visibility: hidden; */
+    display: none;
+}
